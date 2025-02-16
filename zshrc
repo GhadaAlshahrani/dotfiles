@@ -70,3 +70,9 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export LDFLAGS="-L/opt/homebrew/opt/openssl/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/openssl/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl/lib/pkgconfig"
+export LDFLAGS="-L/opt/homebrew/opt/openssl/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/openssl/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl/lib/pkgconfig"
