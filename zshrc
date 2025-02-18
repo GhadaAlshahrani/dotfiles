@@ -70,9 +70,17 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
-export LDFLAGS="-L/opt/homebrew/opt/openssl/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/openssl/include"
-export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl/lib/pkgconfig"
-export LDFLAGS="-L/opt/homebrew/opt/openssl/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/openssl/include"
-export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl/lib/pkgconfig"
+# export LDFLAGS="-L/opt/homebrew/opt/openssl/lib"
+# export CPPFLAGS="-I/opt/homebrew/opt/openssl/include"
+# export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl/lib/pkgconfig"
+# export LDFLAGS="-L/opt/homebrew/opt/openssl/lib"
+# export CPPFLAGS="-I/opt/homebrew/opt/openssl/include"
+# export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl/lib/pkgconfig"
+# export PATH="$HOME/.local/bin:$PATH"
+
+# Created by `pipx` on 2025-02-17 12:27:46
+# export PATH="$PATH:/Users/ghadah/.local/bin"
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
